@@ -6,13 +6,10 @@
 %}
 
 %{
- Q2:  A person deposits $1000 in a bank. Interest is compounded monthly at
- the rate of 1% per month. Write a program which will compute the monthly 
-balance, but write it only annually for 10 years (Hint: use nested loops).
- Note that after 10 years, the balance is $3300.39, whereas if interest had
- been compounded annually at the rate of 12% per year the balance would only
- have been $3105.85. Also as a second exercise, vectorize the code by removing 
-the loops.
+ Q2: Computes the monthly balance of an amount that a person deposits and
+ its interest rate compounded annually. The results should return the
+ balance amount compounded for a certain period of time, for example in
+ this case balance in 10 years
 %}
 
 %prompt the user to enter the amount deposited in a bank i.e $1000

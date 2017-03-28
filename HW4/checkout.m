@@ -4,7 +4,20 @@
   Prof. Praveen Chaturvedi
   3/27/2017
 %}
+%{
+Q1:  Write a program that determines the change given back to a customer in
+ a self-service checkout machine of a supermarket for purchases of up to $20.
+ The program generates a random number between 0.01 and 20.00 and displays the
+ numbers as the amount to be paid. The program then asks the user to enter 
+payment, which can be one $1 bill, one $5 bill, one $10 bill, or one $20 bill.
+ If the payment is less than the amount to be paid, an error message is displayed.
+ If the payment is sufficient, the program calculates the change and lists 
+the bills and/or the coins that make up the change, which has to be composed 
+of the least number each of bills and coins. For example, if the amount to be
+ paid is $2.33 and a $10 bill is entered as payment, then the change is 
+one $5 bill, two $1 bill, two quarters, one dime, one nickel, and two pennies.
 
+%}
 % a+ (b-a)* rand(1,1) generates a random number in range a to b
 a = 0.01;
 b = 20.00;

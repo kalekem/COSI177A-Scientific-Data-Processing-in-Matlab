@@ -1,10 +1,11 @@
 %{
 Name: Cleophas Kalekem
 Instructor: Praveen Chaturvedi
-4/3/2017
+Date: 4/3/2017
 %}
 
 %{
+Q1.
 Write a user-defined function that adds or subtracts two polynomials of any
 order. Name the function p = polyadd(p1, p2, operation). The first two input
 arguments p1 and p2 are the vectors of the coefficients of the two polynomials. 
